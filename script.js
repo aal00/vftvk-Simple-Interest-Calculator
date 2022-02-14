@@ -2,7 +2,7 @@ function compute()
 {
     p = document.getElementById("principal").value;
 	
-	if ((p < 0) || (p == '')) {
+	if ((p <= 0) || (p == '')) {
 		alert('principal should be greater than 0');
 		return;
 		
