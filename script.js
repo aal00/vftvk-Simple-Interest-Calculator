@@ -3,6 +3,7 @@ function compute()
     p = document.getElementById("principal").value;
 	
 	if ((p <= 0) || (p == '')) {
+		 document.getElementById("principal").focus();
 		alert('principal should be greater than 0');
 		return;
 		
