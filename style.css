@@ -1,5 +1,13 @@
 body{
-    width:100%
+    width:100%;
+	background-color:black;
+}
+
+.container{
+	background-color:white;
+	width:95%;
+	margin:auto;
+	border-radius: 15px;
 }
 .topdiv{
     font-size:25px;
